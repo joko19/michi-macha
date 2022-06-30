@@ -15,16 +15,17 @@ function App() {
       <section className=' text-center md:px-24 px-8 '>
         <h1 className='text-7xl text-custom-blue font-bubblegum text-stroke-bold'>Michi</h1>
         <h1 className='text-7xl text-custom-blue font-bubblegum text-stroke-bold'>Macha</h1>
-        <p className='text-custom-gray text-2xl font-bubblegumSans text-lg md:py-12 md:px-36'>
+        <p className='text-custom-gray text-2xl font-bubblegumSans md:py-12 md:px-36'>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
         </p>
         <h1 className='text-4xl text-custom-blue font-bubblegum text-stroke'>MINT SOON</h1>
       </section>
+
       {/* story */}
-      <section className='flex mt-12 gap-8 md:px-24 px-8 '>
+      <section className='flex mt-24 gap-8 md:px-24 px-8 '>
         <div className='w-full'>
           <h1 className='text-7xl text-custom-yellow font-bubblegum text-stroke-bold'>Story</h1>
-          <p className='text-custom-gray text-2xl font-bubblegumSans text-lg py-4 '>
+          <p className='text-custom-gray text-2xl font-bubblegumSans py-4 '>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
           </p>
         </div>
@@ -32,8 +33,9 @@ function App() {
           <img src='/img/story.svg' alt='story' />
         </div>
       </section>
+
       {/*   my michis machas */}
-      <section className='mt-12 md:px-24 px-8 '>
+      <section className='mt-24 md:px-24 px-8 '>
         <h1 className='text-7xl text-custom-yellow font-bubblegum text-stroke-bold text-center'>My Michis Machas</h1>
         <div className='flex flex-col md:flex-row'>
           <div className='w-full'>
@@ -59,8 +61,9 @@ function App() {
           </div>
         </div>
       </section>
+
       {/* Utility */}
-      <section className='mt-12'>
+      <section className='mt-24'>
         <h1 className='text-7xl text-custom-yellow font-bubblegum text-stroke-bold text-center py-4'>Utility</h1>
         <div className='flex flex-col md:-px-24 md:flex-row'>
           <div className='w-full'>
@@ -78,6 +81,40 @@ function App() {
             </ul>
           </div>
         </div>
+      </section>
+
+      {/* roadmap */}
+      <section className='mt-24 md:px-24 px-8 '>
+        <h1 className='text-7xl text-custom-yellow font-bubblegum text-stroke-bold text-center'>Roadmap</h1>
+        {/* <div className='flex flex-col md:flex-row gap-4'>
+          <div className='w-full border-4 border-radius-lg p-8 bg-custom-red -rotate-3'>
+            <h1 className='text-custom-blue text-stroke font-bubblegum text-center text-4xl'>Phase 1</h1>
+            <ul className='text-custom-gray text-2xl font-bubblegumSans'>
+              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
+              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
+              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
+              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
+            </ul>
+          </div>
+          <div className='w-full'>
+            <h1 className='text-custom-blue text-stroke font-bubblegum text-center text-4xl'>Phase 2</h1>
+            <ul className='text-custom-gray text-2xl font-bubblegumSans'>
+              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
+              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
+              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
+              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
+            </ul>
+          </div>
+          <div className='w-full'>
+            <h1 className='text-custom-blue text-stroke font-bubblegum text-center text-4xl'>Phase 3</h1>
+            <ul className='text-custom-gray text-2xl font-bubblegumSans'>
+              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
+              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
+              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
+              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
+            </ul>
+          </div>I
+        </div> */}
       </section>
     </div>
   );
