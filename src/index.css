@@ -14,3 +14,12 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Bubblegum";
+  src: url("../public/fonts/Bubblegum.ttf");
+}
+@font-face {
+  font-family: "BubblegumSans";
+  src: url("../public/fonts/BubblegumSans-Regular.ttf");
+}
