@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'custom': "url('../public/img/bg.png')",
+        'custom': "url('../public/img/bg-min.png')",
       },
       fontFamily: {
         bubblegum: ["Bubblegum"],
