@@ -8,6 +8,7 @@ function App() {
           <img src='icons/discord.svg' alt='icon discord' />
           <img src='icons/twitter.svg' alt='icon twitter' />
           <img src='icons/instagram.svg' alt='icon instagram' />
+          {/* <img src='icons/language.svg' alt='icon langugage' /> */}
         </div>
       </header>
 
@@ -71,7 +72,7 @@ function App() {
             <img src='/img/utility-2.svg' alt='utility 2' />
             <img src='/img/utility-3.svg' alt='utility 3' />
           </div>
-          <div className='w-1/2 p-4'>
+          <div className='w-full md:w-1/2 p-12 md:p-4'>
             <h1 className='text-custom-red text-stroke font-bubblegum text-4xl'>Include</h1>
             <ul className='text-custom-gray text-2xl font-bubblegumSans'>
               <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
@@ -84,8 +85,8 @@ function App() {
       </section>
 
       {/* roadmap */}
-      <section className='mt-24 md:px-24 px-8 '>
-        <h1 className='text-7xl text-custom-yellow font-bubblegum text-stroke-bold text-center'>Roadmap</h1>
+      <section className='mt-24 md:px-24 px-4 '>
+        <h1 className='text-7xl md:text-7xl text-custom-yellow font-bubblegum text-stroke-bold text-center'>Roadmap</h1>
         <div className='flex flex-col md:flex-row gap-4 mt-8'>
           <div className='p-4'>
             <div className='border-2 rounded-lg border-custom-red'>
