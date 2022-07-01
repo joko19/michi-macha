@@ -29,3 +29,6 @@ code {
 .text-stroke-bold{
   -webkit-text-stroke: 6px #646D71;
 }
+.text-stroke-bold-blue{
+  -webkit-text-stroke: 6px #99C1F5;
+}

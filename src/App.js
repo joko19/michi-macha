@@ -153,6 +153,26 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/* whitepaper */}
+      <section className='mt-24 md:px-24 px-8 '>
+        <div>
+          <img src='/img/whitepaper.svg' alt='whitepaper' className='mx-auto' />
+          <h1 className='text-7xl text-white font-bubblegum -mt-48  text-stroke-bold-blue text-center py-4'>Whitepaper</h1>
+        </div>
+      </section>
+
+      <section className=''>
+        <img src='/img/footer.svg' alt='footer' />
+        <div className='grid justify-self-center -mt-32'>
+          <div className='flex justify-self-center mx-auto px-auto'>
+            <img src='icons/discord-solid.svg' alt='icon discord' />
+            <img src='icons/twitter-solid.svg' alt='icon twitter' />
+            <img src='icons/instagram-solid.svg' alt='icon instagram' />
+          </div>
+          <p className='text-center font-bold font-bubblegumSans mt-2'>@ 2022 Michi Macha | Privacy Policy | Terms and Conditions</p>
+        </div>
+      </section>
     </div>
   );
 }
