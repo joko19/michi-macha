@@ -3,13 +3,18 @@ import './App.css';
 function App() {
   return (
     <div className='bg-custom bg-custom-blue'>
-      <header className='flex flex-row-reverse'>
-        <div className='flex'>
-          <img src='icons/discord.svg' alt='icon discord' />
-          <img src='icons/twitter.svg' alt='icon twitter' />
-          <img src='icons/instagram.svg' alt='icon instagram' />
-          {/* <img src='icons/language.svg' alt='icon langugage' /> */}
-        </div>
+      <header className='flex flex-row-reverse p-4'>
+          <div className='flex'>
+            <a href='https://discord.com/' target='_blank' className='my-auto'>
+              <img src='icons/discord-solid.svg' alt='icon discord'/>
+            </a>
+            <a href='https://twitter.com/' target='_blank' className='my-auto'>
+              <img src='icons/twitter-solid.svg' alt='icon twitter'/>
+            </a>
+            <a href='https://www.instagram.com/' target='_blank' className='my-auto'>
+              <img src='icons/instagram-solid.svg' alt='icon instagram'/>
+            </a>
+          </div>
       </header>
 
       {/* michi macha */}
@@ -133,7 +138,7 @@ function App() {
               </div>
             </div>
           </div>
-          
+
         </div>
       </section>
 
@@ -186,11 +191,18 @@ function App() {
         <img src='/img/footer.svg' alt='footer' />
         <div className='grid justify-self-center -mt-24 md:-mt-32'>
           <div className='flex justify-self-center mx-auto px-auto'>
-            <img src='icons/discord-solid.svg' alt='icon discord' />
-            <img src='icons/twitter-solid.svg' alt='icon twitter' />
-            <img src='icons/instagram-solid.svg' alt='icon instagram' />
+            <a href='https://discord.com/' target='_blank' className='my-auto'>
+              <img src='icons/discord-solid.svg' alt='icon discord'/>
+            </a>
+            <a href='https://twitter.com/' target='_blank' className='my-auto'>
+              <img src='icons/twitter-solid.svg' alt='icon twitter'/>
+            </a>
+            <a href='https://www.instagram.com/' target='_blank' className='my-auto'>
+              <img src='icons/instagram-solid.svg' alt='icon instagram'/>
+            </a>
           </div>
-          <p className='text-center font-bold font-bubblegumSans mt-2'>@ 2022 Michi Macha | Privacy Policy | Terms and Conditions</p>
+          <p className='text-center font-bold font-bubblegumSans mt-2'>@ 2022 Michi Macha | <a href="#">Privacy Policy
+          </a>  | <a href="#"> Terms and Conditions </a></p>
         </div>
       </section>
     </div>
