@@ -5,13 +5,13 @@ function App() {
     <div className='bg-custom bg-custom-blue'>
       <header className='flex flex-row-reverse p-4'>
           <div className='flex'>
-            <a href='https://discord.com/' target='_blank' className='my-auto'>
+            <a href='https://discord.com/' target='_blank' className='my-auto' rel="noreferrer">
               <img src='icons/discord-solid.svg' alt='icon discord'/>
             </a>
-            <a href='https://twitter.com/' target='_blank' className='my-auto'>
+            <a href='https://twitter.com/' target='_blank' className='my-auto' rel="noreferrer">
               <img src='icons/twitter-solid.svg' alt='icon twitter'/>
             </a>
-            <a href='https://www.instagram.com/' target='_blank' className='my-auto'>
+            <a href='https://www.instagram.com/' target='_blank' className='my-auto' rel="noreferrer">
               <img src='icons/instagram-solid.svg' alt='icon instagram'/>
             </a>
           </div>
@@ -191,13 +191,13 @@ function App() {
         <img src='/img/footer.svg' alt='footer' />
         <div className='grid justify-self-center -mt-24 md:-mt-32'>
           <div className='flex justify-self-center mx-auto px-auto'>
-            <a href='https://discord.com/' target='_blank' className='my-auto'>
+            <a href='https://discord.com/' target='_blank' className='my-auto' rel="noreferrer">
               <img src='icons/discord-solid.svg' alt='icon discord'/>
             </a>
-            <a href='https://twitter.com/' target='_blank' className='my-auto'>
+            <a href='https://twitter.com/' target='_blank' className='my-auto' rel="noreferrer">
               <img src='icons/twitter-solid.svg' alt='icon twitter'/>
             </a>
-            <a href='https://www.instagram.com/' target='_blank' className='my-auto'>
+            <a href='https://www.instagram.com/' target='_blank' className='my-auto' rel="noreferrer">
               <img src='icons/instagram-solid.svg' alt='icon instagram'/>
             </a>
           </div>
