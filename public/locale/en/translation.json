@@ -1,6 +1,6 @@
 {
-  "app_title": "Title",
+  "app_title": "Michi Macha",
   "language": "Language",
-  "welcome_message": "Welcome",
-  "days_since_release": "it's been {{number_of_days}} days since this video was released"
+  "story": "story",
+  "description": "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies."
 }
