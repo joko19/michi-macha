@@ -3,7 +3,6 @@ import './App.css';
 import { useTranslation } from 'react-i18next'
 import i18next from 'i18next'
 import cookies from 'js-cookie'
-import classNames from 'classnames'
 
 const languages = [
   {
@@ -22,10 +21,6 @@ function App() {
   const currentLanguageCode = cookies.get('i18next') || 'en'
   const currentLanguage = languages.find((l) => l.code === currentLanguageCode)
   const { t } = useTranslation()
-
-  const releaseDate = new Date('2021-03-07')
-  const timeDifference = new Date() - releaseDate
-  const number_of_days = Math.floor(timeDifference / (1000 * 60 * 60 * 24))
 
   useEffect(() => {
     document.body.dir = currentLanguage.dir || 'ltr'
@@ -60,9 +55,10 @@ function App() {
         <h1 className='text-7xl text-custom-blue font-bubblegum text-stroke-bold'>Michi</h1>
         <h1 className='text-7xl text-custom-blue font-bubblegum text-stroke-bold'>Macha</h1>
         <p className='text-custom-gray text-2xl font-bubblegumSans md:py-12 md:px-36'>
-        {t('description')}
+          {t('description')}
         </p>
-        <h1 className='text-4xl text-custom-blue font-bubblegum text-stroke'>MINT SOON</h1>
+        <h1 className='text-4xl text-custom-blue font-bubblegum text-stroke'>{t('mint_soon')}
+        </h1>
       </section>
 
       {/* story */}
@@ -239,8 +235,7 @@ function App() {
               <img src='icons/instagram-solid.svg' alt='icon instagram' />
             </a>
           </div>
-          <p className='text-center font-bold font-bubblegumSans mt-2'>@ 2022 Michi Macha | <a href="#">Privacy Policy
-          </a>  | <a href="#"> Terms and Conditions </a></p>
+          <p className='text-center font-bold font-bubblegumSans mt-2'>@ 2022 Michi Macha | Privacy Policy | Terms and Conditions </p>
         </div>
       </section>
     </div >
