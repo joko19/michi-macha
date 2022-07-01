@@ -23,7 +23,7 @@ function App() {
       </section>
 
       {/* story */}
-      <section className='flex mt-24 gap-8 md:px-24 px-8 '>
+      <section className='flex flex-col md:flex-row mt-24 gap-8 md:px-24 px-8 '>
         <div className='w-full'>
           <h1 className='text-7xl text-custom-yellow font-bubblegum text-stroke-bold'>Story</h1>
           <p className='text-custom-gray text-2xl font-bubblegumSans py-4 '>
@@ -178,13 +178,13 @@ function App() {
       <section className='mt-24 md:px-24 px-8 '>
         <div>
           <img src='/img/whitepaper.svg' alt='whitepaper' className='mx-auto' />
-          <h1 className='text-7xl text-white font-bubblegum -mt-48  text-stroke-bold-blue text-center py-4'>Whitepaper</h1>
+          <h1 className='text-4xl md:text-7xl text-white font-bubblegum md:-mt-48 -mt-28 md:text-stroke-bold-blue text-stroke-blue text-center py-4'>Whitepaper</h1>
         </div>
       </section>
 
       <section className=''>
         <img src='/img/footer.svg' alt='footer' />
-        <div className='grid justify-self-center -mt-32'>
+        <div className='grid justify-self-center -mt-24 md:-mt-32'>
           <div className='flex justify-self-center mx-auto px-auto'>
             <img src='icons/discord-solid.svg' alt='icon discord' />
             <img src='icons/twitter-solid.svg' alt='icon twitter' />
