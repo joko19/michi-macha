@@ -10,7 +10,7 @@ function App() {
           <img src='icons/instagram.svg' alt='icon instagram' />
         </div>
       </header>
-      
+
       {/* michi macha */}
       <section className=' text-center md:px-24 px-8 '>
         <h1 className='text-7xl text-custom-blue font-bubblegum text-stroke-bold'>Michi</h1>
@@ -39,24 +39,24 @@ function App() {
         <h1 className='text-7xl text-custom-yellow font-bubblegum text-stroke-bold text-center'>My Michis Machas</h1>
         <div className='flex flex-col md:flex-row'>
           <div className='w-full'>
-            <img src='/img/cute.svg' alt='cute'  />
+            <img src='/img/cute.svg' alt='cute' />
             <h1 className='text-custom-red text-stroke font-bubblegum text-4xl'>Cute</h1>
             <p className='text-custom-gray text-2xl font-bubblegumSans'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
             </p>
           </div>
           <div className='w-full'>
             <img src='/img/cuter.svg' alt='cute' />
             <h1 className='text-custom-red text-stroke font-bubblegum text-4xl'>Cuter</h1>
             <p className='text-custom-gray text-2xl font-bubblegumSans'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
             </p>
           </div>
           <div className='w-full'>
             <img src='/img/cutest.svg' alt='cute' className='w-full' />
             <h1 className='text-custom-red text-stroke font-bubblegum text-4xl'>Cutest</h1>
             <p className='text-custom-gray text-2xl font-bubblegumSans'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
             </p>
           </div>
         </div>
@@ -85,7 +85,7 @@ function App() {
 
       {/* roadmap */}
       <section className='mt-24 md:px-24 px-8 '>
-        <h1 className='text-7xl text-custom-yellow font-bubblegum text-stroke-bold text-center'>Roadmap</h1>
+        {/* <h1 className='text-7xl text-custom-yellow font-bubblegum text-stroke-bold text-center'>Roadmap</h1> */}
         {/* <div className='flex flex-col md:flex-row gap-4'>
           <div className='w-full border-4 border-radius-lg p-8 bg-custom-red -rotate-3'>
             <h1 className='text-custom-blue text-stroke font-bubblegum text-center text-4xl'>Phase 1</h1>
@@ -115,6 +115,43 @@ function App() {
             </ul>
           </div>I
         </div> */}
+      </section>
+
+      {/* Team */}
+      <section className='mt-24 md:px-24 px-8 '>
+        <h1 className='text-7xl text-custom-yellow font-bubblegum text-stroke-bold text-center py-4'>Team</h1>
+        <div className='flex flex-col md:-px-24 md:flex-row'>
+          <div className='w-full'>
+            <img src='/img/team.svg' alt='team' />
+          </div>
+          <div className='w-full flex flex-col gap-1'>
+            <div className='flex my-2 gap-4'>
+              <img src='/icons/linkedin.svg' alt='linkedin' />
+              <p className='text-stroke font-bubblegum text-custom-blue text-3xl'>
+                <span className='text-custom-red '>Cuter,</span> THE MOST CUTE MAN YOU'VE EVER HEARD</p>
+            </div>
+            <div className='flex my-2 gap-4'>
+              <img src='/icons/linkedin.svg' alt='linkedin' />
+              <p className='text-stroke font-bubblegum text-custom-blue text-3xl'>
+                <span className='text-custom-red '>Cuter2,</span> THE MOST CUTE MAN YOU'VE EVER HEARD</p>
+            </div>
+            <div className='flex my-2 gap-4'>
+              <img src='/icons/linkedin.svg' alt='linkedin' />
+              <p className='text-stroke font-bubblegum text-custom-blue text-3xl'>
+                <span className='text-custom-red '>Cuter3,</span> THE MOST CUTE MAN YOU'VE EVER HEARD</p>
+            </div>
+            <div className='flex my-2 gap-4'>
+              <img src='/icons/linkedin.svg' alt='linkedin' />
+              <p className='text-stroke font-bubblegum text-custom-blue text-3xl'>
+                <span className='text-custom-red '>Cuter4,</span> THE MOST CUTE MAN YOU'VE EVER HEARD</p>
+            </div>
+            <div className='flex my-2 gap-4'>
+              <img src='/icons/linkedin.svg' alt='linkedin' />
+              <p className='text-stroke font-bubblegum text-custom-blue text-3xl'>
+                <span className='text-custom-red '>Cuter5,</span> THE MOST CUTE MAN YOU'VE EVER HEARD</p>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );
