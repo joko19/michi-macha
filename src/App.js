@@ -85,36 +85,55 @@ function App() {
 
       {/* roadmap */}
       <section className='mt-24 md:px-24 px-8 '>
-        {/* <h1 className='text-7xl text-custom-yellow font-bubblegum text-stroke-bold text-center'>Roadmap</h1> */}
-        {/* <div className='flex flex-col md:flex-row gap-4'>
-          <div className='w-full border-4 border-radius-lg p-8 bg-custom-red -rotate-3'>
-            <h1 className='text-custom-blue text-stroke font-bubblegum text-center text-4xl'>Phase 1</h1>
-            <ul className='text-custom-gray text-2xl font-bubblegumSans'>
-              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
-              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
-              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
-              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
-            </ul>
+        <h1 className='text-7xl text-custom-yellow font-bubblegum text-stroke-bold text-center'>Roadmap</h1>
+        <div className='flex flex-col md:flex-row gap-4 mt-8'>
+          <div className='p-4'>
+            <div className='border-2 rounded-lg border-custom-red'>
+              <div className='w-full border-2 border-custom-red rounded-lg p-8 bg-gradient-to-b from-custom-red -rotate-6'>
+                <div className='rotate-6'>
+                  <h1 className='text-custom-blue text-stroke font-bubblegum text-center text-4xl'>Phase 1</h1>
+                  <ul className='text-custom-gray text-2xl font-bubblegumSans'>
+                    <li className='list-disc'>amco laboris nisi ut aliquip ex ea. Duis aute laboris nisi ut  commodo consequat. </li>
+                    <li className='list-disc'>amco laboris nisi ut aliquip ex ea. Duis aute laboris nisi ut  commodo consequat. </li>
+                    <li className='list-disc'>amco laboris nisi ut aliquip ex ea. Duis aute laboris nisi ut  commodo consequat. </li>
+                    <li className='list-disc'>amco laboris nisi ut aliquip ex ea. Duis aute laboris nisi ut  commodo consequat. </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className='w-full'>
-            <h1 className='text-custom-blue text-stroke font-bubblegum text-center text-4xl'>Phase 2</h1>
-            <ul className='text-custom-gray text-2xl font-bubblegumSans'>
-              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
-              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
-              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
-              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
-            </ul>
+          <div className='p-4'>
+            <div className='border-2 rounded-lg border-custom-red'>
+              <div className='w-full border-2 border-custom-red rounded-lg p-8 bg-gradient-to-b from-custom-red -rotate-6'>
+                <div className='rotate-6'>
+                  <h1 className='text-custom-blue text-stroke font-bubblegum text-center text-4xl'>Phase 2</h1>
+                  <ul className='text-custom-gray text-2xl font-bubblegumSans'>
+                    <li className='list-disc'>amco laboris nisi ut aliquip ex ea. Duis aute laboris nisi ut  commodo consequat. </li>
+                    <li className='list-disc'>amco laboris nisi ut aliquip ex ea. Duis aute laboris nisi ut  commodo consequat. </li>
+                    <li className='list-disc'>amco laboris nisi ut aliquip ex ea. Duis aute laboris nisi ut  commodo consequat. </li>
+                    <li className='list-disc'>amco laboris nisi ut aliquip ex ea. Duis aute laboris nisi ut  commodo consequat. </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className='w-full'>
-            <h1 className='text-custom-blue text-stroke font-bubblegum text-center text-4xl'>Phase 3</h1>
-            <ul className='text-custom-gray text-2xl font-bubblegumSans'>
-              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
-              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
-              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
-              <li className='list-disc'>amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute laboris nisi ut  commodo consequat. </li>
-            </ul>
-          </div>I
-        </div> */}
+          <div className='p-4'>
+            <div className='border-2 rounded-lg border-custom-red'>
+              <div className='w-full border-2 border-custom-red rounded-lg p-8 bg-gradient-to-b from-custom-red -rotate-6'>
+                <div className='rotate-6'>
+                  <h1 className='text-custom-blue text-stroke font-bubblegum text-center text-4xl'>Phase 3</h1>
+                  <ul className='text-custom-gray text-2xl font-bubblegumSans'>
+                    <li className='list-disc'>amco laboris nisi ut aliquip ex ea. Duis aute laboris nisi ut  commodo consequat. </li>
+                    <li className='list-disc'>amco laboris nisi ut aliquip ex ea. Duis aute laboris nisi ut  commodo consequat. </li>
+                    <li className='list-disc'>amco laboris nisi ut aliquip ex ea. Duis aute laboris nisi ut  commodo consequat. </li>
+                    <li className='list-disc'>amco laboris nisi ut aliquip ex ea. Duis aute laboris nisi ut  commodo consequat. </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
       </section>
 
       {/* Team */}
