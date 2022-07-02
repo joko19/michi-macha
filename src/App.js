@@ -51,17 +51,20 @@ function App() {
         </div>
       </header >
       {/* michi macha */}
-      <section className=' text-center md:px-24 px-8 pt-16'>
+      <section className=' text-center md:px-24 px-8 pt-20'>
         <h1 className='text-7xl text-custom-blue font-bubblegum text-stroke-bold'>Michi</h1>
         <h1 className='text-7xl text-custom-blue font-bubblegum text-stroke-bold'>Macha</h1>
-        <p className='text-custom-gray text-2xl font-bubblegumSans md:py-12 md:px-36'>
+        <p className='text-custom-gray text-2xl font-bubblegumSans md:pt-16 md:px-36'>
           {t('description')}
         </p>
-        <h1 className='text-4xl text-custom-blue font-bubblegum text-stroke'>{t('mint_soon')}</h1>
+        <div>
+          <img src='/img/soon.svg' alt='whitepaper' className='mx-auto' />
+          <a href='https://google.com' target="_blank" rel="noreferrer" > <h1 className=' text-4xl text-custom-blue font-bubblegum text-stroke md:-mt-56 -mt-28'>{t('mint_soon')}</h1></a>
+        </div>
       </section>
 
       {/* story */}
-      <section className='flex flex-col md:flex-row mt-24 gap-8 md:px-24 px-8 '>
+      <section className='flex flex-col md:flex-row mt-40 gap-8 md:px-24 px-8 '>
         <div className='w-full'>
           <h1 className='text-7xl text-custom-yellow font-bubblegum text-stroke-bold'>{t('story')}</h1>
           <p className='text-custom-gray text-2xl font-bubblegumSans py-4 '>{t('story_desc')}</p>
@@ -179,29 +182,29 @@ function App() {
           </div>
           <div className='w-full flex flex-col gap-1'>
             <div className='flex my-2 gap-4'>
-              <img src='/icons/linkedin.svg' alt='linkedin' />
+              <a href='https://linkedin.com' target="_blank" rel="noreferrer" className='my-auto text-custom-red text-stroke'><img src='/icons/linkedin.svg' alt='linkedin' /></a>
               <p className='text-stroke font-bubblegum text-custom-blue text-3xl'>
-                <span className='text-custom-red '>Cuter,</span> {t('team_desc')}</p>
+                <a href='https://linkedin.com' target="_blank" rel="noreferrer" className='text-custom-red text-stroke'>Cuter,</a> {t('team_desc')}</p>
             </div>
             <div className='flex my-2 gap-4'>
-              <img src='/icons/linkedin.svg' alt='linkedin' />
+              <a href='https://linkedin.com' target="_blank" rel="noreferrer" className='my-auto text-custom-red text-stroke'><img src='/icons/linkedin.svg' alt='linkedin' /></a>
               <p className='text-stroke font-bubblegum text-custom-blue text-3xl'>
-                <span className='text-custom-red '>Cuter2,</span> {t('team_desc')}</p>
+                <a href='https://linkedin.com' target="_blank" rel="noreferrer" className='text-custom-red text-stroke'>Cuter2,</a> {t('team_desc')}</p>
             </div>
             <div className='flex my-2 gap-4'>
-              <img src='/icons/linkedin.svg' alt='linkedin' />
+              <a href='https://linkedin.com' target="_blank" rel="noreferrer" className='my-auto text-custom-red text-stroke'><img src='/icons/linkedin.svg' alt='linkedin' /></a>
               <p className='text-stroke font-bubblegum text-custom-blue text-3xl'>
-                <span className='text-custom-red '>Cuter3,</span> {t('team_desc')}</p>
+                <a href='https://linkedin.com' target="_blank" rel="noreferrer" className='text-custom-red text-stroke '>Cuter3,</a> {t('team_desc')}</p>
             </div>
             <div className='flex my-2 gap-4'>
-              <img src='/icons/linkedin.svg' alt='linkedin' />
+              <a href='https://linkedin.com' target="_blank" rel="noreferrer" className='my-auto text-custom-red text-stroke'><img src='/icons/linkedin.svg' alt='linkedin' /></a>
               <p className='text-stroke font-bubblegum text-custom-blue text-3xl'>
-                <span className='text-custom-red '>Cuter4,</span> {t('team_desc')}</p>
+                <a href='https://linkedin.com' target="_blank" rel="noreferrer" className='text-custom-red text-stroke '>Cuter4,</a> {t('team_desc')}</p>
             </div>
             <div className='flex my-2 gap-4'>
-              <img src='/icons/linkedin.svg' alt='linkedin' />
+              <a href='https://linkedin.com' target="_blank" rel="noreferrer" className='my-auto text-custom-red text-stroke'><img src='/icons/linkedin.svg' alt='linkedin' /></a>
               <p className='text-stroke font-bubblegum text-custom-blue text-3xl'>
-                <span className='text-custom-red '>Cuter5,</span> {t('team_desc')}</p>
+                <a href='https://linkedin.com' target="_blank" rel="noreferrer" className='text-custom-red text-stroke'>Cuter5,</a> {t('team_desc')}</p>
             </div>
           </div>
         </div>
@@ -211,7 +214,9 @@ function App() {
       <section className='mt-24 md:px-24 px-8 '>
         <div>
           <img src='/img/whitepaper.svg' alt='whitepaper' className='mx-auto' />
-          <h1 className='text-4xl md:text-7xl text-white font-bubblegum md:-mt-48 -mt-28 md:text-stroke-bold-blue text-stroke-blue text-center py-4'>Whitepaper</h1>
+          <a href='https://google.com' target="_blank" rel="noreferrer" >
+            <h1 className='text-4xl md:text-7xl text-white font-bubblegum md:-mt-48 -mt-28 md:text-stroke-bold-blue text-stroke-blue text-center py-4'>Whitepaper</h1>
+          </a>
         </div>
       </section>
 
@@ -229,7 +234,7 @@ function App() {
               <img src='icons/instagram-solid.svg' alt='icon instagram' />
             </a>
           </div>
-          <p className='text-center font-bold font-bubblegumSans mt-2'>@ 2022 Michi Macha | {t('privacy')} | {t('tnc')} </p>
+          <p className='text-center font-bold font-bubblegumSans mt-2'>@ 2022 Michi Macha | <a href='https://google.com' target="_blank" rel="noreferrer" > {t('privacy')} </a> | <a href='https://google.com' target="_blank" rel="noreferrer" > {t('tnc')} </a></p>
         </div>
       </section>
     </div >
