@@ -234,7 +234,7 @@ function App() {
               <img src='icons/instagram-solid.svg' alt='icon instagram' />
             </a>
           </div>
-          <p className='text-center font-bold font-bubblegumSans mt-2'>@ 2022 Michi Macha | <a href='https://google.com' target="_blank" rel="noreferrer" > {t('privacy')} </a> | <a href='https://google.com' target="_blank" rel="noreferrer" > {t('tnc')} </a></p>
+          <p className='text-center font-bold font-bubblegumSans mt-2'>@ 2022 Michi Macha | <a href='https://google.com' target="_blank" rel="noreferrer" > {t('policy')} </a> | <a href='https://google.com' target="_blank" rel="noreferrer" > {t('tnc')} </a></p>
         </div>
       </section>
     </div >
