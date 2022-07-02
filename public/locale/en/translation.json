@@ -1,7 +1,18 @@
 {
   "app_title": "Michi Macha",
   "language": "Language",
-  "story": "story",
   "description": "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.",
-  "mint_soon": "MINT SOON"
+  "mint_soon": "MINT SOON",
+  "story": "story",
+  "story_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+  "my_michis_machas" : "MY MICHIS MACHAS",
+  "my_michis_machas_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  "include": "INCLUDE",
+  "include_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+  "phase": "PHASE",
+  "phase_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+  "team": "TEAM",
+  "team_desc": "THE MOST CUTE MAN YOU'VE EVER HEARD",
+  "tnc":"Term and Conditions",
+  "policy": "Privacy Policy"
 }

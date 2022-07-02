@@ -1,7 +1,18 @@
 {
   "app_title": "Michi Macha",
   "language": "Bahasa",
-  "story": "cerita",
   "description": "React adalah pustaka JavaScript front-end sumber terbuka dan gratis untuk membangun antarmuka pengguna berdasarkan komponen UI. Itu dikelola oleh Meta dan komunitas pengembang individu dan perusahaan.",
-  "mint_soon": "SEGERA"
+  "mint_soon": "SEGERA",
+  "story": "cerita",
+  "story_desc": "amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiatamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+  "my_michis_machas" : "MICHIS MACHAS SAYA",
+  "my_michis_machas_desc": "amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+  "include": "TERMASUK",
+  "include_desc": "amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure",
+  "phase": "FASE",
+  "phase_desc": "amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure",
+  "team": "TIM",
+  "team_desc": "ORANG PALING LUCU YANG PERNAH KAMU DENGAR",
+  "tnc":"Syarat dan Ketentuan",
+  "policy": "Kebijakan Privasi"
 }
