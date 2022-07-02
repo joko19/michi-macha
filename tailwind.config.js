@@ -13,6 +13,9 @@ module.exports = {
       fontFamily: {
         bubblegum: ["Bubblegum"],
         bubblegumSans: ["BubblegumSans"],
+        perpetua: ["Perpetua"],
+        pertibd: ["Pertibd"],
+        pertili: ["Pertili"],
       },
       colors: {
         custom: {

@@ -23,6 +23,18 @@ code {
   font-family: "BubblegumSans";
   src: url("../public/fonts/BubblegumSans-Regular.ttf");
 }
+@font-face {
+  font-family: "Perpetua";
+  src: url("../public/fonts/PerpetuaTitlingMTLight2.ttf");
+}
+@font-face {
+  font-family: "Pertibd";
+  src: url("../public/fonts/pertibd.ttf");
+}
+@font-face {
+  font-family: "Pertili";
+  src: url("../public/fonts/PERTILI.TTF");
+}
 .text-stroke{
   -webkit-text-stroke: 2px #646D71;
 }

@@ -7,12 +7,12 @@ import cookies from 'js-cookie'
 const languages = [
   {
     code: 'en',
-    name: 'English',
+    name: 'EN',
     country_code: 'gb',
   },
   {
     code: 'id',
-    name: 'Indonesia',
+    name: 'ID',
     country_code: 'id',
   },
 ]
@@ -41,7 +41,7 @@ function App() {
             <img src='icons/instagram.svg' alt='icon instagram' className='w-10 h-10' />
           </a>
           <img src='icons/language.svg' alt='icon language' className='my-auto py-auto pl-2 mr-2 w-10 h-10' />
-          <select defaultValue={currentLanguageCode} onClick={(e) => { i18next.changeLanguage(e.target.value) }} className="bg-transparent p-2 rounded">
+          <select defaultValue={currentLanguageCode} onClick={(e) => { i18next.changeLanguage(e.target.value) }} className="bg-transparent p-2 rounded font-bubblegumSans">
             {languages.map(({ code, name, country_code }) => (
               <option key={country_code} value={code}>
                 {name}
