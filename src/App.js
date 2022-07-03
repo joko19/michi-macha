@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect} from 'react'
 import './App.css';
 import { useTranslation } from 'react-i18next'
 import i18next from 'i18next'
@@ -8,11 +8,13 @@ const languages = [
   {
     code: 'en',
     name: 'EN',
+    value: 'English',
     country_code: 'gb',
   },
   {
     code: 'id',
     name: 'ID',
+    value: 'Indonesia',
     country_code: 'id',
   },
 ]
@@ -28,7 +30,7 @@ function App() {
   }, [currentLanguage, t])
 
   return (
-    <div className='bg-custom bg-custom-blue'>
+    <div className='md:bg-custom bg-mobile bg-custom-blue'>
       <header className='flex flex-row-reverse p-4 top right-0 fixed'>
         <div className='flex'>
           <a href='https://discord.com/' target='_blank' className='my-auto' rel="noreferrer">
@@ -41,11 +43,13 @@ function App() {
             <img src='icons/instagram.svg' alt='icon instagram' className='w-10 h-10' />
           </a>
           <img src='icons/language.svg' alt='icon language' className='my-auto py-auto pl-2 mr-2 w-10 h-10' />
-          <select defaultValue={currentLanguageCode} onClick={(e) => { i18next.changeLanguage(e.target.value) }} className="bg-transparent p-2 rounded font-bubblegumSans">
-            {languages.map(({ code, name, country_code }) => (
-              <option key={country_code} value={code}>
-                {name}
-              </option>
+          
+          <select defaultValue={currentLanguageCode} onClick={(e) => {
+            console.log(e.target.value)
+            i18next.changeLanguage(e.target.value)
+          }} className="bg-transparent p-2 rounded font-bubblegumSans">
+            {languages.map(({ code, name, value, country_code }) => (
+              <option key={country_code} value={code}>{value}</option>
             ))}
           </select>
         </div>
@@ -58,18 +62,18 @@ function App() {
           {t('description')}
         </p>
         <div>
-          <img src='/img/soon.svg' alt='whitepaper' className='mx-auto' />
-          <a href='https://google.com' target="_blank" rel="noreferrer" > <h1 className=' text-4xl text-custom-blue font-bubblegum text-stroke md:-mt-56 -mt-28'>{t('mint_soon')}</h1></a>
+          <img src='/img/soon.svg' alt='whitepaper' className='mx-auto md:flex hidden' />
+          <a href='https://google.com' target="_blank" rel="noreferrer" > <h1 className=' text-4xl text-custom-blue font-bubblegum text-stroke md:-mt-56 mt-12'>{t('mint_soon')}</h1></a>
         </div>
       </section>
 
       {/* story */}
-      <section className='flex flex-col md:flex-row mt-40 gap-8 md:px-24 px-8 '>
+      <section className='flex flex-col md:flex-row mt-12 md:mt-40 gap-8 md:px-24 px-8 '>
         <div className='w-full'>
           <h1 className='text-7xl text-custom-yellow font-bubblegum text-stroke-bold'>{t('story')}</h1>
           <p className='text-custom-gray text-2xl font-bubblegumSans py-4 '>{t('story_desc')}</p>
         </div>
-        <div className='flex md:w-1/2'>
+        <div className='flex w-full md:w-1/2'>
           <img src='/img/story.svg' alt='story' />
         </div>
       </section>
@@ -79,13 +83,13 @@ function App() {
         <h1 className='text-7xl text-custom-yellow font-bubblegum text-stroke-bold text-center'>{t('my_michis_machas')}</h1>
         <div className='flex flex-col md:flex-row'>
           <div className='w-full'>
-            <img src='/img/cute.svg' alt='cute' />
+            <img src='/img/cute.svg' alt='cute' className='w-full'/>
             <h1 className='text-custom-red text-stroke font-bubblegum text-4xl'>Cute</h1>
             <p className='text-custom-gray text-2xl font-bubblegumSans'>{t('my_michis_machas_desc')}
             </p>
           </div>
           <div className='w-full'>
-            <img src='/img/cuter.svg' alt='cute' />
+            <img src='/img/cuter.svg' alt='cute' className='w-full'/>
             <h1 className='text-custom-red text-stroke font-bubblegum text-4xl'>Cuter</h1>
             <p className='text-custom-gray text-2xl font-bubblegumSans'>{t('my_michis_machas_desc')}
             </p>
@@ -177,8 +181,8 @@ function App() {
       <section className='mt-24 md:px-24 px-8 '>
         <h1 className='text-7xl text-custom-yellow font-bubblegum text-stroke-bold text-center py-4'>{t('team')}</h1>
         <div className='flex flex-col md:-px-24 md:flex-row'>
-          <div className='w-full'>
-            <img src='/img/team.svg' alt='team' />
+          <div className='flex w-full'>
+            <img src='/img/team.svg' alt='team' className='m-auto p-auto' />
           </div>
           <div className='w-full flex flex-col gap-1'>
             <div className='flex my-2 gap-4'>
@@ -213,9 +217,9 @@ function App() {
       {/* whitepaper */}
       <section className='mt-24 md:px-24 px-8 '>
         <div>
-          <img src='/img/whitepaper.svg' alt='whitepaper' className='mx-auto' />
+          <img src='/img/whitepaper.svg' alt='whitepaper' className='mx-auto md:flex hidden' />
           <a href='https://google.com' target="_blank" rel="noreferrer" >
-            <h1 className='text-4xl md:text-7xl text-white font-bubblegum md:-mt-48 -mt-28 md:text-stroke-bold-blue text-stroke-blue text-center py-4'>Whitepaper</h1>
+            <h1 className='text-4xl md:text-7xl text-white font-bubblegum md:-mt-48 mt-28 md:text-stroke-bold-blue text-stroke-blue text-center py-4'>Whitepaper</h1>
           </a>
         </div>
       </section>
